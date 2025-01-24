@@ -1,0 +1,107 @@
+.background-dark {
+    background-color: #3948b6;
+}
+
+.headline {
+    background-color: #f2f2f2e0;
+    border-radius: 15px;
+    position: relative;
+    top: .04em;
+    font-size: 50px;
+    color: #3948b6;
+    font-family: Georgia, serif, sans-serif;
+}
+
+/* This function is an alternative for the div-Elements to arrange*/
+/*.box {
+    float: none;
+    width: 70%;
+    margin-top: 30%;
+    margin-right: 2%;
+    padding: 20px;
+    background: none;
+    box-sizing: border-box;
+}
+
+.box:last-child {
+    margin-top: 25%;
+    margin-right: 0;
+}*/
+
+.button {
+    background-color: #3948b6; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 1.9s;
+    cursor: pointer;
+}
+
+.button_all {
+    background-color: #3948b6;
+    color: #ffffff;
+    border: 2px solid #3948b6;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-border_up {
+    margin: 0px 120px 0px 120px;
+    padding-right: .2em;
+}
+
+.margin-border_down {
+    margin: 0px 130px 10px 150px;
+    padding-right: .2em;
+}
+
+.margin-top {
+    margin-top: 2%;
+}
+
+.padding {
+    padding-top: .4em;
+    padding-right: .2em;
+    padding-left: .1em;
+}
+
+.timer {
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 53px 120px 0px 120px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family:Tahoma, serif, sans-serif;
+}
+
+#start_stop {
+    display: -webkit-flex;
+    display: flex;
+    cursor: pointer;
+}
+
+#reset_termination {
+    display: -webkit-flex;
+    display: flex;
+    cursor: pointer;
+}

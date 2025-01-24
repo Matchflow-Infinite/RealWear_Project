@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rallycounter</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script language="javascript" type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+<body class="background-dark">
+    <div class="headline margin-border_up padding">Rallycounter&nbsp;
+        <a href="index.html">
+            <img width="45px" src="img/counter_0001.webp" alt="Chronometer">
+        </a>
+        <img align="right" width="45px" src="img/notice.webp" alt="Benachrichtigung">
+        <img align="right" width="45px" src="img/gear.webp" alt="Einstellungen">
+        <img align="right" width="45px" src="img/person.webp" alt="Benutzer">
+        <img align="right" width="45px" src="img/screen.webp" alt="Bildaufnahme">
+    </div>
+
+    <div class="center margin-top" id="start_stop">
+        <button class="button button_all" onclick="counterStart()">START</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button button_all" onclick="counterStop()">STOP</button>
+    </div>
+   
+    <div class="center margin-top timer" id="timer">
+        00 m. : 00 s.
+    </div>
+
+    <div class="center margin-top" id="reset_termination">
+        <button class="button button_all" onclick="reset()">RESET</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html">
+            <button class="button button_all" onclick="counterStop()">ABBRUCH</button>
+        </a>
+    </div>
+
+    <div class="margin-border_down">
+        <img align="right" width="45px" src="img/S_Links.webp" alt="Socialmedia">
+        <img align="right" width="45px" src="img/still-top.webp" alt="Like-Button">
+    </div>
+
+    <div class="footer">
+        <p>Copyright &#169;: devops-pur 2025. All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
